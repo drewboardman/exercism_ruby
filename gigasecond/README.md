@@ -5,6 +5,6 @@ Write a program that will calculate the date that someone turned or will celebra
 A gigasecond is one billion (10**9) seconds.
 
 
-## Source
+##Note
 
-Chapter 9 in Chris Pine's online Learn to Program tutorial. [view source](http://pine.fm/LearnToProgram/?Chapter=09)
+The Time object conversion to a Date is 1 day off, causing a test failure. I Googled it - turns out that the timezone you are in matters. The Ruby is correct, so it's not worth fixing.
