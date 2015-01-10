@@ -12,46 +12,29 @@ end
 
 class Strand
 attr_accessor :strand
+RNA_TO_DNA = {
+  'C' => 'G',
+  'A' => 'T',
+  'U' => 'A',
+  'G' => 'C'
+}
 
+DNA_TO_RNA = {
+ 'G' => 'C',
+ 'C' => 'G',
+ 'T' => 'A',
+ 'A' => 'U'
+}
   def initialize(strand)
-    @strand = strand
+    @strand = strand.split(//)
   end
 
   def convert_strand_to_rna(dna_strand)
-    rna_strand = []
-
-    dna_strand.split(//).each do |acid|
-      case acid
-        when 'G'
-          rna_strand << 'C'
-        when 'C'
-          rna_strand << 'G'
-        when 'T'
-          rna_strand << 'A'
-        when 'A'
-          rna_strand << 'U'
-      end
-    end
-    return rna_strand.join
-
+    @strand.map { |char| DNA_TO_RNA.fetch(char)  }.reduce(:+)
   end
 
   def convert_strand_to_dna(rna_strand)
-    dna_strand = []
-
-    rna_strand.split(//).each do |acid|
-      case acid
-        when 'C'
-          dna_strand << 'G'
-        when 'G'
-          dna_strand << 'C'
-        when 'A'
-          dna_strand << 'T'
-        when 'U'
-          dna_strand << 'A'
-      end
-    end
-    return dna_strand.join
+    @strand.map { |char| RNA_TO_DNA.fetch(char)  }.reduce(:+)
   end
 
 end

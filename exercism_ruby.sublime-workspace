@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"dna",
+				"dna_strand"
+			],
+			[
+				"conv",
+				"convert_strand_to_rna"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			],
+			[
+				"add",
+				"add_days"
+			],
+			[
 				"se",
 				"seconds_per_day"
 			],
@@ -94,10 +110,6 @@
 			[
 				"req",
 				"require_relative"
-			],
-			[
-				"re",
-				"require"
 			],
 			[
 				"cla",
@@ -396,18 +408,26 @@
 	"buffers":
 	[
 		{
-			"file": "gigasecond/gigasecond.rb",
+			"file": "rna-transcription/README.md",
 			"settings":
 			{
-				"buffer_size": 346,
+				"buffer_size": 627,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "gigasecond/gigasecond_test.rb",
+			"file": "rna-transcription/complement.rb",
 			"settings":
 			{
-				"buffer_size": 817,
+				"buffer_size": 1036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rna-transcription/complement_test.rb",
+			"settings":
+			{
+				"buffer_size": 1117,
 				"line_ending": "Unix"
 			}
 		}
@@ -415,9 +435,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 252.0,
+		"height": 148.0,
 		"selected_items":
 		[
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
 			[
 				"packa",
 				"Package Control: Install Package"
@@ -425,10 +453,6 @@
 			[
 				"packag",
 				"Package Control: Install Package"
-			],
-			[
-				"ruby",
-				"Set Syntax: Ruby"
 			],
 			[
 				"rsp",
@@ -519,7 +543,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 472.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -541,10 +565,19 @@
 	"expanded_folders":
 	[
 		"/home/drew/exercism/ruby",
-		"/home/drew/exercism/ruby/gigasecond"
+		"/home/drew/exercism/ruby/gigasecond",
+		"/home/drew/exercism/ruby/hamming",
+		"/home/drew/exercism/ruby/rna-transcription"
 	],
 	"file_history":
 	[
+		"/home/drew/exercism/ruby/README.md",
+		"/home/drew/exercism/ruby/gigasecond/README.md",
+		"/home/drew/exercism/ruby/gigasecond/time_utilities.rb",
+		"/home/drew/exercism/ruby/gigasecond/gigasecond.rb",
+		"/home/drew/exercism/ruby/hamming/GETTING_STARTED.md",
+		"/home/drew/exercism/ruby/gigasecond/gigasecond_test.rb",
+		"/home/drew/exercism/ruby/gigasecond/time_module.rb",
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/app/views/layouts/application.html.erb",
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/Gemfile",
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/README.md",
@@ -665,14 +698,7 @@
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/photo_shouts/_photo_shout.html.erb",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/shouts/_shout.html.erb",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/db/migrate/20140922211525_create_photo_shouts.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/shout.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/controllers/text_shouts_controller.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/controllers/shouts_controller.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/db/migrate/20140922191036_create_text_shouts.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/db/migrate/20140922191310_make_shouts_polymorphic.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/_user.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/_shouts.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/new.html.erb"
+		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/shout.rb"
 	],
 	"find":
 	{
@@ -736,24 +762,52 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "gigasecond/gigasecond.rb",
+					"file": "rna-transcription/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 346,
+						"buffer_size": 627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								335,
-								335
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rna-transcription/complement.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1025,
+								1025
 							]
 						],
 						"settings":
@@ -761,10 +815,10 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -774,20 +828,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "gigasecond/gigasecond_test.rb",
+					"buffer": 2,
+					"file": "rna-transcription/complement_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 817,
+						"buffer_size": 1117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								908,
+								908
 							]
 						],
 						"settings":
@@ -796,11 +850,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -926,7 +980,7 @@
 		],
 		"width": 378.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
