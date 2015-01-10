@@ -19,12 +19,8 @@ RNA_TO_DNA = {
   'G' => 'C'
 }
 
-DNA_TO_RNA = {
- 'G' => 'C',
- 'C' => 'G',
- 'T' => 'A',
- 'A' => 'U'
-}
+DNA_TO_RNA = RNA_TO_DNA.invert
+
   def initialize(strand)
     @strand = strand.split(//)
   end
