@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sum",
+				"sum_of_squares"
+			],
+			[
+				"rain",
+				"rain_primes"
+			],
+			[
 				"dna",
 				"dna_strand"
 			],
@@ -408,26 +416,18 @@
 	"buffers":
 	[
 		{
-			"file": "rna-transcription/README.md",
+			"file": "roman-numerals/README.md",
 			"settings":
 			{
-				"buffer_size": 627,
+				"buffer_size": 1351,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "rna-transcription/complement.rb",
+			"file": "roman-numerals/roman_numerals_test.rb",
 			"settings":
 			{
-				"buffer_size": 1036,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rna-transcription/complement_test.rb",
-			"settings":
-			{
-				"buffer_size": 1117,
+				"buffer_size": 1291,
 				"line_ending": "Unix"
 			}
 		}
@@ -565,13 +565,21 @@
 	"expanded_folders":
 	[
 		"/home/drew/exercism/ruby",
-		"/home/drew/exercism/ruby/gigasecond",
-		"/home/drew/exercism/ruby/hamming",
-		"/home/drew/exercism/ruby/rna-transcription"
+		"/home/drew/exercism/ruby/roman-numerals"
 	],
 	"file_history":
 	[
 		"/home/drew/exercism/ruby/README.md",
+		"/home/drew/exercism/ruby/exercism_ruby.sublime-project",
+		"/home/drew/exercism/ruby/difference-of-squares/difference_of_squares.rb",
+		"/home/drew/exercism/ruby/difference-of-squares/difference_of_squares_test.rb",
+		"/home/drew/exercism/ruby/difference-of-squares/README.md",
+		"/home/drew/exercism/ruby/rna-transcription/complement.rb",
+		"/home/drew/exercism/ruby/raindrops/raindrops_test.rb",
+		"/home/drew/exercism/ruby/raindrops/raindrops.rb",
+		"/home/drew/exercism/ruby/raindrops/README.md",
+		"/home/drew/exercism/ruby/rna-transcription/complement_test.rb",
+		"/home/drew/exercism/ruby/rna-transcription/README.md",
 		"/home/drew/exercism/ruby/gigasecond/README.md",
 		"/home/drew/exercism/ruby/gigasecond/time_utilities.rb",
 		"/home/drew/exercism/ruby/gigasecond/gigasecond.rb",
@@ -688,17 +696,7 @@
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/concerns/following.rb",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/timeline.rb",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/text_shouts/_text_shout.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/show.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/controllers/following_relationships_controller.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/timelines/_timeline.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/index.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/helpers/users_helper.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/controllers/users_controller.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/following_relationship.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/photo_shouts/_photo_shout.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/shouts/_shout.html.erb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/db/migrate/20140922211525_create_photo_shouts.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/shout.rb"
+		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/users/show.html.erb"
 	],
 	"find":
 	{
@@ -716,6 +714,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"-",
+			"`",
 			"name",
 			"value",
 			"weight",
@@ -742,11 +742,13 @@
 			"%>\n"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"=",
+			"'",
 			"rating",
 			"Rating",
 			"restaurant",
@@ -757,29 +759,29 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "rna-transcription/README.md",
+					"file": "roman-numerals/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 627,
+						"buffer_size": 1351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								0,
+								1351
 							]
 						],
 						"settings":
@@ -787,38 +789,10 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "rna-transcription/complement.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1025,
-								1025
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -828,20 +802,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "rna-transcription/complement_test.rb",
+					"buffer": 1,
+					"file": "roman-numerals/roman_numerals_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1117,
+						"buffer_size": 1291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								908,
-								908
+								0,
+								0
 							]
 						],
 						"settings":
@@ -851,10 +825,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -905,7 +879,7 @@
 	"project": "exercism_ruby.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -980,7 +954,7 @@
 		],
 		"width": 378.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
