@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'prime'
+require_relative 'nth_prime'
 
 class TestPrimes < MiniTest::Unit::TestCase
   def test_first
@@ -7,22 +7,22 @@ class TestPrimes < MiniTest::Unit::TestCase
   end
 
   def test_second
-    skip
+    # skip
     assert_equal 3, Prime.nth(2)
   end
 
   def test_sixth_prime
-    skip
+    # skip
     assert_equal 13, Prime.nth(6)
   end
 
   def test_big_prime
-    skip
+    # skip
     assert_equal 104_743, Prime.nth(10_001)
   end
 
   def test_weird_case
-    skip
+    # skip
     assert_raises ArgumentError do
       Prime.nth(0)
     end
