@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"four",
+				"four_century"
+			],
+			[
+				"year",
+				"year"
+			],
+			[
+				"lea",
+				"leap_divisible"
+			],
+			[
+				"leap",
+				"leapocity"
+			],
+			[
+				"it",
+				"itb	RSpec It Block"
+			],
+			[
+				"req",
+				"req	require \"..\""
+			],
+			[
 				"sum",
 				"sum_of_squares"
 			],
@@ -114,10 +138,6 @@
 			[
 				"cl",
 				"cla	class .. end"
-			],
-			[
-				"req",
-				"require_relative"
 			],
 			[
 				"cla",
@@ -416,51 +436,18 @@
 	"buffers":
 	[
 		{
-			"file": "nth-prime/nth_prime.rb",
+			"file": "word-count/README.md",
 			"settings":
 			{
-				"buffer_size": 236,
-				"line_ending": "Unix",
-				"name": "require 'prime'"
-			}
-		},
-		{
-			"file": "/home/drew/.zshrc",
-			"settings":
-			{
-				"buffer_size": 239,
+				"buffer_size": 271,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/drew/.bash_profile",
+			"file": "word-count/word_count_test.rb",
 			"settings":
 			{
-				"buffer_size": 280,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/drew/.bashrc",
-			"settings":
-			{
-				"buffer_size": 3781,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "nth-prime/nth_prime_test.rb",
-			"settings":
-			{
-				"buffer_size": 490,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "nth-prime/README.md",
-			"settings":
-			{
-				"buffer_size": 276,
+				"buffer_size": 2203,
 				"line_ending": "Unix"
 			}
 		}
@@ -468,35 +455,63 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 148.0,
+		"height": 263.0,
 		"selected_items":
 		[
 			[
-				"ruby",
+				"rub",
 				"Set Syntax: Ruby"
 			],
 			[
-				"md",
-				"Set Syntax: Markdown"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"packag",
-				"Package Control: Install Package"
+				"ruby",
+				"Set Syntax: Ruby"
 			],
 			[
 				"rsp",
 				"Set Syntax: RSpec"
 			],
 			[
-				"rspe",
-				"Set Syntax: RSpec"
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
 			],
 			[
 				"rspec",
+				"Set Syntax: RSpec"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"rspe",
 				"Set Syntax: RSpec"
 			],
 			[
@@ -508,16 +523,8 @@
 				"Set Syntax: CSS"
 			],
 			[
-				"pack",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
-			],
-			[
-				"rub",
-				"Set Syntax: Ruby"
 			],
 			[
 				"rai",
@@ -598,10 +605,36 @@
 	"expanded_folders":
 	[
 		"/home/drew/exercism/ruby",
-		"/home/drew/exercism/ruby/nth-prime"
+		"/home/drew/exercism/ruby/grains/spec",
+		"/home/drew/exercism/ruby/leap/spec",
+		"/home/drew/exercism/ruby/word-count",
+		"/home/drew/exercism/ruby/word-count/spec"
 	],
 	"file_history":
 	[
+		"/home/drew/exercism/ruby/grains/spec/grains_spec.rb",
+		"/home/drew/exercism/ruby/grains/README.md",
+		"/home/drew/exercism/ruby/grains/grains_test.rb",
+		"/home/drew/exercism/ruby/grains/grains.rb",
+		"/home/drew/exercism/ruby/grains/spec/spec_helper.rb",
+		"/home/drew/exercism/ruby/leap/leap.rb",
+		"/home/drew/exercism/ruby/leap/README.md",
+		"/home/drew/exercism/ruby/leap/leap_test.rb",
+		"/home/drew/exercism/ruby/leap/spec/leap_spec.rb",
+		"/home/drew/exercism/ruby/nth-prime/README.md",
+		"/home/drew/exercism/ruby/leap/spec/spec_helper.rb",
+		"/home/drew/exercism/ruby/nth-prime/nth_prime.rb",
+		"/home/drew/exercism/ruby/nth-prime/spec/spec_helper.rb",
+		"/home/drew/exercism/ruby/nth-prime/spec/nth_prime_spec.rb",
+		"/home/drew/exercism/ruby/nth-prime/leap_spec.rb",
+		"/home/drew/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/drew/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/drew/exercism/ruby/nth-prime/nth_prime_test.rb",
+		"/home/drew/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/drew/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/drew/.zshrc",
+		"/home/drew/.bash_profile",
+		"/home/drew/.bashrc",
 		"/home/drew/exercism/ruby/rna-transcription/complement.rb",
 		"/home/drew/exercism/ruby/robot-name/robot_name.rb",
 		"/home/drew/exercism/ruby/robot-name/robot_name_test.rb",
@@ -630,8 +663,6 @@
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/Gemfile",
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/README.md",
 		"/home/drew/Dropbox/the_odin_project/Hartl 3rd Edition/chapter_3/sample_app/Gemfile.lock",
-		"/home/drew/.bash_profile",
-		"/home/drew/.bashrc",
 		"/home/drew/Dropbox/the_odin_project/api_practice/drew_git_score.rb",
 		"/home/drew/Dropbox/the_odin_project/OOP/tic_tac_toe/Gemfile",
 		"/home/drew/Dropbox/the_odin_project/OOP/tic_tac_toe/tic_tac_toe.gemspec",
@@ -708,32 +739,11 @@
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/views/dashboards/show.html.erb",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/assets/javascripts/searches.js.coffee",
 		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/helpers/searches_helper.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/config/secrets.yml",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/models/dashboard.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/config/locales/monban.en.yml",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/config/initializers/mime_types.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/tmp/cache/assets/development/sass/8190d6ac73ac59518bb3ab541bd188df8ffb2606/text_shouts.css.scssc",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/tmp/cache/assets/development/sass/8190d6ac73ac59518bb3ab541bd188df8ffb2606/photo_shouts.css.scssc",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/tmp/cache/assets/development/sass/8190d6ac73ac59518bb3ab541bd188df8ffb2606/shouts.css.scssc",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/test/helpers/following_relationships_helper_test.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/test/helpers/searches_helper_test.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/test/helpers/dashboards_helper_test.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/tmp/cache/assets/development/sass/8190d6ac73ac59518bb3ab541bd188df8ffb2606/hashtags.css.scssc",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/test/helpers/hashtags_helper_test.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/test/controllers/hashtags_controller_test.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/assets/stylesheets/hashtags.css.scss",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/assets/javascripts/hashtags.js.coffee",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/helpers/hashtags_helper.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/assets/stylesheets/searches.css.scss",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/helpers/dashboards_helper.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/app/controllers/dashboards_controller.rb",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/config/database.yml",
-		"/home/drew/Dropbox/the_odin_project/shouter/shouter/Rakefile",
-		"/home/drew/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+		"/home/drew/Dropbox/the_odin_project/shouter/shouter/config/secrets.yml"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -747,6 +757,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"year",
+			"self",
+			"year",
+			"@",
+			"password",
+			"username",
+			"git",
 			"skip",
 			"-",
 			"`",
@@ -776,11 +793,15 @@
 			"%>\n"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"year_input",
+			"@year",
+			"year_input",
+			"@year",
 			"",
 			"=",
 			"'",
@@ -799,167 +820,16 @@
 	"groups":
 	[
 		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "nth-prime/nth_prime.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'prime'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/drew/.zshrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/drew/.bash_profile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								160,
-								160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/drew/.bashrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3781,
-								3781
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1819.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
 			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 4,
-					"file": "nth-prime/nth_prime_test.rb",
+					"buffer": 0,
+					"file": "word-count/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "nth-prime/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 276,
+						"buffer_size": 271,
 						"regions":
 						{
 						},
@@ -978,7 +848,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "word-count/word_count_test.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1025,6 +931,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 114.0
 	},
 	"project": "exercism_ruby.sublime-project",
 	"replace":
@@ -1104,7 +1014,7 @@
 		],
 		"width": 378.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
